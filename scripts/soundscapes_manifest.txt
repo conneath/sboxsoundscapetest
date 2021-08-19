@@ -1,0 +1,5 @@
+// No soundscapes by default
+soundscapes_manifest
+{
+		"file"		"scripts/soundscapes_test.txt"
+}

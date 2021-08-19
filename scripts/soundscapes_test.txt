@@ -1,0 +1,79 @@
+"d3_citadel.util_hits"
+{
+	"playrandom"
+	{
+		"time"		"8, 30"
+		"volume"	"0.5,0.75"
+		"pitch"		"90,110"
+		"soundlevel"	"SNDLVL_140dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"	"ambient/levels/citadel/strange_talk1.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk3.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk4.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk5.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk6.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk7.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk8.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk9.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk10.vsnd"
+			"wave"	"ambient/levels/citadel/strange_talk11.vsnd"
+
+		}
+	}
+}
+"d3_citadel.util_activity"
+{
+	"playrandom"
+	{
+		"time"		"8, 40"
+		"volume"	"0.25,0.45"
+		"pitch"		"90,110"
+		"soundlevel"	"SNDLVL_140dB"
+		"position"	"random"
+		"rndwave"
+		{
+			"wave"		"ambient/levels/streetwar/marching_distant1.vsnd"
+			"wave"		"ambient/levels/streetwar/city_chant1.vsnd"
+			"wave"		"ambient/levels/streetwar/strider_distant_walk1.vsnd"
+			"wave"		"ambient/levels/streetwar/gunship_distant2.vsnd"
+			"wave"		"ambient/levels/streetwar/strider_distant3.vsnd"
+		}
+	}
+}
+"d3_citadel.generic_moody"
+{
+
+
+	"playlooping"
+	{
+		"volume"	"0.42"
+		"pitch"		"100"
+		"wave"		"ambient/levels/citadel/citadel_drone_loop4.vsnd"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"d3_citadel.util_hits"
+		"volume"	"1.0"
+	}
+
+	"playsoundscape"
+	{
+		"name"		"d3_citadel.util_activity"
+		"volume"	"1.0"
+	}
+
+	"playrandom"
+	{
+		"time"		"30, 60"
+		"volume"	"0.15,0.25"
+		"pitch"		"90,110"
+		"soundlevel"	"0"
+		"rndwave"
+		{
+			"wave"	"*ambient/levels/citadel/citadel_ambient_voices1.vsnd"
+		}
+	}
+}
